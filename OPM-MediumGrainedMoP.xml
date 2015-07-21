@@ -1,0 +1,4512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opmGraph xmlns="http://openprovenance.org/model/opmx#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns4="http://example.com/">
+    <accounts>
+        <account id="account2"/>
+    </accounts>
+    <processes>
+        <process id="P_1">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.processes.IntegerProducerWithToken@296157ec"/>
+        </process>
+        <process id="P_2">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.processes.IntegerProducerWithToken@2769aba2"/>
+        </process>
+        <process id="P_3">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842"/>
+        </process>
+        <process id="P_4">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096"/>
+        </process>
+        <process id="P_5">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@302f71e2"/>
+        </process>
+        <process id="P_6">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@75b9fd80"/>
+        </process>
+        <process id="P_7">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59"/>
+        </process>
+        <process id="P_8">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.processes.IntegerPrinterWithToken@4b187f5b"/>
+        </process>
+    </processes>
+    <artifacts>
+        <artifact id="a_1">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_1">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_2">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_1">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_3">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_2">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_4">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_3">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_5">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_4">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_6">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_5">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_7">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_6">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_8">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_7">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_9">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_8">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_10">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_9">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_11">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_10">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_12">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_11">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_13">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_12">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_14">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_13">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_15">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_14">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_16">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_15">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_17">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_16">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_18">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_17">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_19">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_18">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_20">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_19">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_21">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_20">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_22">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_21">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_23">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_22">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_24">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_23">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_25">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_24">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_26">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_25">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_27">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_26">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_28">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_27">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">12</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_29">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_28">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">16</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+        <artifact id="a_30">
+            <account ref="account2"/>
+            <label value="int"/>
+            <annotation id="artifactAnnotation_29">
+                <property key="tokenValue">
+                    <value xsi:type="xsd:int">20</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </artifact>
+    </artifacts>
+    <agents>
+        <agent id="Agent_1">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.system.ProcessThreadImpl@64171cdc"/>
+        </agent>
+        <agent id="Agent_2">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.system.ProcessThreadImpl@a832ce5"/>
+        </agent>
+        <agent id="Agent_3">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.system.ProcessThreadImpl@451d4b2e"/>
+        </agent>
+        <agent id="Agent_4">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.system.ProcessThreadImpl@4c7d5d85"/>
+        </agent>
+        <agent id="Agent_5">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.system.ProcessThreadImpl@7addc524"/>
+        </agent>
+        <agent id="Agent_6">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.system.ProcessThreadImpl@5b21ae2"/>
+        </agent>
+        <agent id="Agent_7">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.system.ProcessThreadImpl@506e4e82"/>
+        </agent>
+        <agent id="Agent_8">
+            <account ref="account2"/>
+            <label value="au.edu.adelaide.pna.system.ProcessThreadImpl@355155e1"/>
+        </agent>
+    </agents>
+    <dependencies>
+        <wasControlledBy id="WCB_1">
+            <effect ref="P_1"/>
+            <role value="DataFlow-Scheduler- scheduler"/>
+            <cause ref="Agent_1"/>
+            <account ref="account2"/>
+        </wasControlledBy>
+        <wasControlledBy id="WCB_2">
+            <effect ref="P_2"/>
+            <role value="DataFlow-Scheduler- scheduler"/>
+            <cause ref="Agent_2"/>
+            <account ref="account2"/>
+        </wasControlledBy>
+        <wasControlledBy id="WCB_3">
+            <effect ref="P_3"/>
+            <role value="DataFlow-Scheduler- scheduler"/>
+            <cause ref="Agent_3"/>
+            <account ref="account2"/>
+        </wasControlledBy>
+        <wasControlledBy id="WCB_4">
+            <effect ref="P_4"/>
+            <role value="DataFlow-Scheduler- scheduler"/>
+            <cause ref="Agent_4"/>
+            <account ref="account2"/>
+        </wasControlledBy>
+        <wasControlledBy id="WCB_5">
+            <effect ref="P_5"/>
+            <role value="DataFlow-Scheduler- scheduler"/>
+            <cause ref="Agent_5"/>
+            <account ref="account2"/>
+        </wasControlledBy>
+        <wasControlledBy id="WCB_6">
+            <effect ref="P_6"/>
+            <role value="DataFlow-Scheduler- scheduler"/>
+            <cause ref="Agent_6"/>
+            <account ref="account2"/>
+        </wasControlledBy>
+        <wasControlledBy id="WCB_7">
+            <effect ref="P_7"/>
+            <role value="DataFlow-Scheduler- scheduler"/>
+            <cause ref="Agent_7"/>
+            <account ref="account2"/>
+        </wasControlledBy>
+        <wasControlledBy id="WCB_8">
+            <effect ref="P_8"/>
+            <role value="DataFlow-Scheduler- scheduler"/>
+            <cause ref="Agent_8"/>
+            <account ref="account2"/>
+        </wasControlledBy>
+        <wasGeneratedBy id="WGB_1">
+            <effect ref="a_1"/>
+            <role value="out"/>
+            <cause ref="P_1"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_2">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@509b5b2f" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_1">
+            <effect ref="a_2"/>
+            <role value="out"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_2">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@77f9401" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_2">
+            <effect ref="a_3"/>
+            <role value="out"/>
+            <cause ref="P_1"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_3">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@72f9ebcd" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_3">
+            <effect ref="a_4"/>
+            <role value="out"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_4">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@75e81ab3" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_4">
+            <effect ref="a_5"/>
+            <role value="out"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_5">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@72bb2acf" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_5">
+            <effect ref="a_6"/>
+            <role value="out"/>
+            <cause ref="P_1"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_6">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@5df7b6e1" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_6">
+            <effect ref="a_7"/>
+            <role value="out"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_7">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@12146018" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_7">
+            <effect ref="a_8"/>
+            <role value="out"/>
+            <cause ref="P_1"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_8">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@d43ccf5" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_8">
+            <effect ref="a_9"/>
+            <role value="out"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_9">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@5e44efa0" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_9">
+            <effect ref="a_10"/>
+            <role value="out"/>
+            <cause ref="P_1"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_10">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@4ef16070" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasTriggeredBy id="WTB_1">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_1">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_1">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_1">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_1">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_1">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">1</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_10">
+            <effect ref="a_11"/>
+            <role value="out"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_11">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@637a7476" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_1">
+            <effect ref="a_11"/>
+            <cause ref="a_1"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_1">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_2">
+            <effect ref="a_11"/>
+            <cause ref="a_2"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_2">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_1">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_1"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_1">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_2">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_2"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_2">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_2">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_2">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_2">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_2">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_2">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_2">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_11">
+            <effect ref="a_12"/>
+            <role value="out"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_12">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@283a3001" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_3">
+            <effect ref="a_12"/>
+            <cause ref="a_3"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_3">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_4">
+            <effect ref="a_12"/>
+            <cause ref="a_4"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_4">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_3">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_3"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_3">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_4">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_4"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_4">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_3">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_3">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_3">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_3">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_3">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_3">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">3</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_12">
+            <effect ref="a_13"/>
+            <role value="out"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_13">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@43c804bf" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_5">
+            <effect ref="a_13"/>
+            <cause ref="a_6"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_5">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_6">
+            <effect ref="a_13"/>
+            <cause ref="a_5"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_6">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_5">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_6"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_5">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_6">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_5"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_6">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_4">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_4">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_4">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_4">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_4">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_4">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_13">
+            <effect ref="a_14"/>
+            <role value="out"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_14">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@10f43005" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_7">
+            <effect ref="a_14"/>
+            <cause ref="a_8"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_7">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_8">
+            <effect ref="a_14"/>
+            <cause ref="a_7"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_8">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_7">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_8"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_7">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_8">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_7"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_8">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_5">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_5">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_5">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_5">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_5">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_5">
+            <effect ref="P_3"/>
+            <cause ref="P_2"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">5</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_14">
+            <effect ref="a_15"/>
+            <role value="out"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_15">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@3f2b3cc4" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_9">
+            <effect ref="a_15"/>
+            <cause ref="a_10"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_9">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_10">
+            <effect ref="a_15"/>
+            <cause ref="a_9"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_10">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@69879842</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_9">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_10"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_9">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_10">
+            <effect ref="P_3"/>
+            <role value="in1"/>
+            <cause ref="a_9"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_10">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_6">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_6">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_6">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_6">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_6">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_15">
+            <effect ref="a_11"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_16">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@103f4395" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="1 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">10</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_16">
+            <effect ref="a_11"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_17">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@296df388" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="2 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">1</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_11">
+            <effect ref="a_11"/>
+            <cause ref="a_11"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_11">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_12">
+            <effect ref="a_11"/>
+            <cause ref="a_11"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_12">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_11">
+            <effect ref="P_4"/>
+            <role value="in1"/>
+            <cause ref="a_11"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_11">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_7">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_7">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_7">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_7">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_7">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_17">
+            <effect ref="a_12"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_18">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@718f7af7" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="1 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">10</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_18">
+            <effect ref="a_12"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_19">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@2d22860" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="2 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">1</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_13">
+            <effect ref="a_12"/>
+            <cause ref="a_12"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_13">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_14">
+            <effect ref="a_12"/>
+            <cause ref="a_12"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_14">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_12">
+            <effect ref="P_4"/>
+            <role value="in1"/>
+            <cause ref="a_12"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_12">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_8">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_8">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_8">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_8">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_8">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_19">
+            <effect ref="a_13"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_20">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@3358b812" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="1 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">10</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_20">
+            <effect ref="a_13"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_21">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@59cc014" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="2 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">1</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_15">
+            <effect ref="a_13"/>
+            <cause ref="a_13"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_15">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_16">
+            <effect ref="a_13"/>
+            <cause ref="a_13"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_16">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_13">
+            <effect ref="P_4"/>
+            <role value="in1"/>
+            <cause ref="a_13"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_13">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_9">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_9">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_9">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_9">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_9">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_21">
+            <effect ref="a_14"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_22">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@760663ec" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="1 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">10</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_22">
+            <effect ref="a_14"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_23">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@1d8a577d" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="2 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">1</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_17">
+            <effect ref="a_14"/>
+            <cause ref="a_14"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_17">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_18">
+            <effect ref="a_14"/>
+            <cause ref="a_14"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_18">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_14">
+            <effect ref="P_4"/>
+            <role value="in1"/>
+            <cause ref="a_14"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_14">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_10">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_10">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_10">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_10">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_10">
+            <effect ref="P_4"/>
+            <cause ref="P_3"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_23">
+            <effect ref="a_15"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_24">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@6575deb1" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="1 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">10</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasGeneratedBy id="WGB_24">
+            <effect ref="a_15"/>
+            <role value="out"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_25">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@1d6f6a81" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="2 =&gt; there is two input ports" id="port index">
+                            <content xsi:type="xsd:int">1</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_19">
+            <effect ref="a_15"/>
+            <cause ref="a_15"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_19">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_20">
+            <effect ref="a_15"/>
+            <cause ref="a_15"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_20">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.SplitterWithToken@b0e2096</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_15">
+            <effect ref="P_4"/>
+            <role value="in1"/>
+            <cause ref="a_15"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_15">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_11">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_11">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_11">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_11">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_11">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_11">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_11">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_25">
+            <effect ref="a_16"/>
+            <role value="out"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_26">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@21faa3c5" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_21">
+            <effect ref="a_16"/>
+            <cause ref="a_11"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_21">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@75b9fd80</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_16">
+            <effect ref="P_6"/>
+            <role value="in1"/>
+            <cause ref="a_11"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_16">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_12">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_12">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_12">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_12">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_12">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_12">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_12">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_26">
+            <effect ref="a_17"/>
+            <role value="out"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_27">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@4eaabc2d" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_22">
+            <effect ref="a_17"/>
+            <cause ref="a_12"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_22">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@75b9fd80</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_17">
+            <effect ref="P_6"/>
+            <role value="in1"/>
+            <cause ref="a_12"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_17">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_13">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_13">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_13">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_13">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_13">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_13">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_13">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_27">
+            <effect ref="a_18"/>
+            <role value="out"/>
+            <cause ref="P_5"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_28">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@6554598e" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasTriggeredBy id="WTB_14">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_14">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_14">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_14">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_14">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_14">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_14">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasDerivedFrom id="WDF_23">
+            <effect ref="a_18"/>
+            <cause ref="a_11"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_23">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@302f71e2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_18">
+            <effect ref="P_5"/>
+            <role value="in1"/>
+            <cause ref="a_11"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_18">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasGeneratedBy id="WGB_28">
+            <effect ref="a_19"/>
+            <role value="out"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_29">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@4aba9d8e" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_24">
+            <effect ref="a_19"/>
+            <cause ref="a_13"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_24">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@75b9fd80</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_19">
+            <effect ref="P_6"/>
+            <role value="in1"/>
+            <cause ref="a_13"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_19">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_15">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_15">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_15">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_15">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_15">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_15">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_15">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_29">
+            <effect ref="a_20"/>
+            <role value="out"/>
+            <cause ref="P_5"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_30">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@3fe8e4c8" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasTriggeredBy id="WTB_16">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_16">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_16">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasDerivedFrom id="WDF_25">
+            <effect ref="a_20"/>
+            <cause ref="a_12"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_25">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@302f71e2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasTriggeredBy id="WTB_16">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_16">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_16">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_16">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <used id="USED_20">
+            <effect ref="P_5"/>
+            <role value="in1"/>
+            <cause ref="a_12"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_20">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_17">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_17">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_17">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_17">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_17">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_17">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_17">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_30">
+            <effect ref="a_21"/>
+            <role value="out"/>
+            <cause ref="P_5"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_31">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@35acc3ad" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_26">
+            <effect ref="a_21"/>
+            <cause ref="a_13"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_26">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@302f71e2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasGeneratedBy id="WGB_31">
+            <effect ref="a_22"/>
+            <role value="out"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_32">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@15a6d5e1" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <used id="USED_21">
+            <effect ref="P_5"/>
+            <role value="in1"/>
+            <cause ref="a_13"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_21">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasDerivedFrom id="WDF_27">
+            <effect ref="a_22"/>
+            <cause ref="a_14"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_27">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@75b9fd80</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_22">
+            <effect ref="P_6"/>
+            <role value="in1"/>
+            <cause ref="a_14"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_22">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_18">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_18">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_18">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_18">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_18">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_18">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_18">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_32">
+            <effect ref="a_23"/>
+            <role value="out"/>
+            <cause ref="P_5"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_33">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@b736a73" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasTriggeredBy id="WTB_19">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_19">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_19">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_19">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_19">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_19">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_19">
+            <effect ref="P_6"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasDerivedFrom id="WDF_28">
+            <effect ref="a_23"/>
+            <cause ref="a_14"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_28">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@302f71e2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasGeneratedBy id="WGB_33">
+            <effect ref="a_24"/>
+            <role value="out"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_34">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@1b68dbcd" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <used id="USED_23">
+            <effect ref="P_5"/>
+            <role value="in1"/>
+            <cause ref="a_14"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_23">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasDerivedFrom id="WDF_29">
+            <effect ref="a_24"/>
+            <cause ref="a_15"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_29">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@75b9fd80</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_24">
+            <effect ref="P_6"/>
+            <role value="in1"/>
+            <cause ref="a_15"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_24">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_20">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_20">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_20">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_20">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_20">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_20">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_20">
+            <effect ref="P_5"/>
+            <cause ref="P_4"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_34">
+            <effect ref="a_25"/>
+            <role value="out"/>
+            <cause ref="P_5"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_35">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@207c5965" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_30">
+            <effect ref="a_25"/>
+            <cause ref="a_15"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_30">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithConstantWithToken@302f71e2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_25">
+            <effect ref="P_5"/>
+            <role value="in1"/>
+            <cause ref="a_15"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_25">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_21">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_21">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_21">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_21">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_21">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_21">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">2</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_35">
+            <effect ref="a_26"/>
+            <role value="out"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_36">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@7536834e" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_31">
+            <effect ref="a_26"/>
+            <cause ref="a_18"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_31">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_32">
+            <effect ref="a_26"/>
+            <cause ref="a_16"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_32">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_26">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_18"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_26">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_27">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_16"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_27">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_22">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_22">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_22">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_22">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_22">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_22">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_36">
+            <effect ref="a_27"/>
+            <role value="out"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_37">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@64b045f4" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_33">
+            <effect ref="a_27"/>
+            <cause ref="a_20"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_33">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_34">
+            <effect ref="a_27"/>
+            <cause ref="a_17"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_34">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_28">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_20"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_28">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_29">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_17"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_29">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_23">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_23">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_23">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_23">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_23">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_23">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">6</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_37">
+            <effect ref="a_28"/>
+            <role value="out"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_38">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@101b085" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_35">
+            <effect ref="a_28"/>
+            <cause ref="a_21"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_35">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_36">
+            <effect ref="a_28"/>
+            <cause ref="a_19"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_36">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_30">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_21"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_30">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_31">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_19"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_31">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_24">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_24">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_24">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_24">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_24">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_24">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_38">
+            <effect ref="a_29"/>
+            <role value="out"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_39">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@33e5348f" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_37">
+            <effect ref="a_29"/>
+            <cause ref="a_23"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_37">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_38">
+            <effect ref="a_29"/>
+            <cause ref="a_22"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_38">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_32">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_23"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_32">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_33">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_22"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_33">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_25">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_25">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_25">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_25">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_25">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_25">
+            <effect ref="P_7"/>
+            <cause ref="P_6"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 1">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port No. 2 ">
+                    <value xsi:type="xsd:string">10</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasGeneratedBy id="WGB_39">
+            <effect ref="a_30"/>
+            <role value="out"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wgbAnnotation_40">
+                <property key="WGB - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value encoding="java.lang.Object@2f0c624a" id="channel">
+                            <content xsi:type="xsd:string">Object</content>
+                        </value>
+                        <value encoding="0 =&gt; the only input port" id="port index">
+                            <content xsi:type="xsd:int">0</content>
+                        </value>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasGeneratedBy>
+        <wasDerivedFrom id="WDF_39">
+            <effect ref="a_30"/>
+            <cause ref="a_25"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_39">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <wasDerivedFrom id="WDF_40">
+            <effect ref="a_30"/>
+            <cause ref="a_24"/>
+            <account ref="account2"/>
+            <annotation id="wdfAnnotation_40">
+                <property key="WDB - process">
+                    <value xsi:type="xsd:string">au.edu.adelaide.pna.processes.ArithmaticProcessWithToken@7002ee59</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasDerivedFrom>
+        <used id="USED_34">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_25"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_34">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="1 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <used id="USED_35">
+            <effect ref="P_7"/>
+            <role value="in1"/>
+            <cause ref="a_24"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_35">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="2 =&gt; there is two input ports" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_26">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_26">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_26">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_26">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">4</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <used id="USED_36">
+            <effect ref="P_8"/>
+            <role value="in1"/>
+            <cause ref="a_26"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_36">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_27">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_27">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_27">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_27">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">8</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <used id="USED_37">
+            <effect ref="P_8"/>
+            <role value="in1"/>
+            <cause ref="a_27"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_37">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_28">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">12</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_28">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">12</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_28">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">12</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_28">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">12</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <used id="USED_38">
+            <effect ref="P_8"/>
+            <role value="in1"/>
+            <cause ref="a_28"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_38">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_29">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">16</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_29">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">16</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_29">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">16</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_29">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">16</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <used id="USED_39">
+            <effect ref="P_8"/>
+            <role value="in1"/>
+            <cause ref="a_29"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_39">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+        <wasTriggeredBy id="WTB_30">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">20</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_30">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">20</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_30">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">20</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <wasTriggeredBy id="WTB_30">
+            <effect ref="P_8"/>
+            <cause ref="P_7"/>
+            <account ref="account2"/>
+            <annotation id="wtbAnnotation_0">
+                <property key="WTB - token coming into input port ">
+                    <value xsi:type="xsd:string">20</value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </wasTriggeredBy>
+        <used id="USED_40">
+            <effect ref="P_8"/>
+            <role value="in1"/>
+            <cause ref="a_30"/>
+            <account ref="account2"/>
+            <annotation id="usedAnnotation_40">
+                <property key="USED - Port and Channel">
+                    <value xsi:type="EmbeddedAnnotation">
+                        <value id="channel"/>
+                        <value encoding="0 =&gt; the only input port" id="port index"/>
+                    </value>
+                </property>
+                <account ref="account2"/>
+            </annotation>
+        </used>
+    </dependencies>
+    <annotations/>
+</opmGraph>
